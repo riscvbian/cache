@@ -20,7 +20,7 @@ jobs:
         uses: Vucko130/delete-older-releases@v0.2.1
         with:
           repo: armbianworker/cache
-          keep_latest: 1
+          keep_latest: 2
           delete_tags: true
           delete_tag_pattern: "0"
         env:
